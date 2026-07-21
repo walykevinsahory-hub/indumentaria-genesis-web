@@ -8,6 +8,15 @@
       "category": "Camisetas",
       "available": true,
       "featured": true
+    },
+    {
+      "available": true,
+      "featured": false,
+      "name": "camisetas",
+      "image": "/assets/productos/whatsapp-image-2026-07-21-at-18.12.08.jpeg",
+      "price": "13.800",
+      "description": "camisetas de futbol set deportivo ",
+      "category": "Camisetas"
     }
   ]
 }
