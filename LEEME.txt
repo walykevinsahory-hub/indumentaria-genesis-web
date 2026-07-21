@@ -1,0 +1,28 @@
+INDUMENTARIA GÉNESIS - SITIO WEB
+
+ARCHIVOS
+- index.html: contenido principal
+- styles.css: diseño, colores y adaptación para celulares
+- script.js: menú móvil y año automático
+
+CÓMO ABRIR
+1. Descomprimir la carpeta.
+2. Abrir el archivo index.html con Google Chrome, Edge o Firefox.
+
+CÓMO CAMBIAR FOTOS
+Actualmente la galería usa fondos de muestra.
+Podés reemplazar cada bloque de galería por imágenes reales o agregar:
+background-image: url('nombre-de-la-foto.jpg');
+
+WHATSAPP
+El número configurado es 3794 590601.
+Los botones abren WhatsApp directamente.
+
+PUBLICACIÓN
+Podés subir estos archivos a un hosting, Netlify, GitHub Pages o el servicio web que prefieras.
+
+
+ACTUALIZACIÓN
+- Se agregó el logo G real y la tipografía/wordmark de Génesis.
+- Se agregó favicon (icono de pestaña) y og-image.jpg para vista previa al compartir el link.
+- Al publicar en Netlify, WhatsApp y Facebook podrán mostrar una vista previa de la web.
