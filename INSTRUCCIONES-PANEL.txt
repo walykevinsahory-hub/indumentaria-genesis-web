@@ -1,0 +1,9 @@
+PANEL INTERNO DE PRODUCTOS
+
+1. Subí todos estos archivos al repositorio GitHub, reemplazando los anteriores.
+2. Esperá a que Netlify publique automáticamente.
+3. Invitá tu correo desde Netlify Identity.
+4. Abrí: https://indumentaria-genesis-catalogo.netlify.app/admin/
+5. Iniciá sesión.
+6. Entrá en Catálogo > Productos.
+7. Agregá productos y presioná Publish.

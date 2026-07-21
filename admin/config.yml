@@ -1,0 +1,42 @@
+backend:
+  name: git-gateway
+  branch: main
+
+locale: "es"
+
+media_folder: "assets/productos"
+public_folder: "/assets/productos"
+
+collections:
+  - name: "catalogo"
+    label: "Catálogo"
+    files:
+      - name: "productos"
+        label: "Productos"
+        file: "data/products.json"
+        format: "json"
+        fields:
+          - label: "Lista de productos"
+            name: "products"
+            widget: "list"
+            summary: "{{fields.name}} — {{fields.price}}"
+            label_singular: "Producto"
+            fields:
+              - { label: "Nombre", name: "name", widget: "string" }
+              - { label: "Foto", name: "image", widget: "image" }
+              - { label: "Precio", name: "price", widget: "string", required: false }
+              - { label: "Descripción", name: "description", widget: "text", required: false }
+              - label: "Categoría"
+                name: "category"
+                widget: "select"
+                options:
+                  - "Camisetas"
+                  - "Conjuntos"
+                  - "Shorts"
+                  - "Buzos y chombas"
+                  - "Banderas"
+                  - "Escolar"
+                  - "Personalizados"
+                  - "Otros"
+              - { label: "Disponible", name: "available", widget: "boolean", default: true }
+              - { label: "Destacado", name: "featured", widget: "boolean", default: false }

@@ -18,6 +18,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
   <header class="header">
@@ -31,7 +32,8 @@
 
       <nav class="nav-links">
         <a href="#inicio">Inicio</a>
-        <a href="#productos">Productos</a>
+        <a href="#productos">Servicios</a>
+        <a href="#catalogo">Catálogo</a>
         <a href="#trabajos">Trabajos</a>
         <a href="#nosotros">Nosotros</a>
         <a href="#contacto">Contacto</a>
@@ -119,6 +121,20 @@
       </div>
     </section>
 
+
+    <section id="catalogo" class="section catalog-section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">CATÁLOGO</span>
+          <h2>Nuestros productos</h2>
+          <p>Consultá por WhatsApp para personalizar colores, talles, nombres, números y logos.</p>
+        </div>
+        <div id="product-grid" class="product-grid">
+          <p class="catalog-loading">Cargando productos…</p>
+        </div>
+      </div>
+    </section>
+
     <section id="trabajos" class="section gallery-section">
       <div class="container">
         <div class="section-heading light">
@@ -185,6 +201,7 @@
       </div>
       <p>Diseño e indumentaria personalizada • Corrientes</p>
       <small>© <span id="year"></span> Indumentaria Génesis. Todos los derechos reservados.</small>
+      <a class="admin-link" href="/admin/">Administrar productos</a>
     </div>
   </footer>
 
