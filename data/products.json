@@ -1,15 +1,6 @@
 {
   "products": [
     {
-      "name": "Camisetas deportivas personalizadas",
-      "image": "/assets/og-image.jpg",
-      "price": "Consultar",
-      "description": "Personalizadas con colores, escudo, nombre, número y sponsors.",
-      "category": "Camisetas",
-      "available": true,
-      "featured": true
-    },
-    {
       "available": true,
       "featured": false,
       "name": "camisetas",
