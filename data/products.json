@@ -8,6 +8,15 @@
       "price": "13.800",
       "description": "camisetas de futbol set deportivo ",
       "category": "Camisetas"
+    },
+    {
+      "available": true,
+      "featured": false,
+      "name": "conjuntos deportivos",
+      "image": "/assets/productos/whatsapp-image-2026-07-21-at-18.22.19.jpeg",
+      "price": "25.800",
+      "description": "short y camiseta escudo numero color sponsor",
+      "category": "Conjuntos"
     }
   ]
 }
