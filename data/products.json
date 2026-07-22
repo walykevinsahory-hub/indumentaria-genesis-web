@@ -17,6 +17,15 @@
       "price": "25.800",
       "description": "short y camiseta escudo numero color sponsor",
       "category": "Conjuntos"
+    },
+    {
+      "available": true,
+      "featured": false,
+      "image": "/assets/productos/bandera-argentina-1.png",
+      "name": "bandera",
+      "price": "20.000",
+      "description": "set deportivo color diseño motivo ",
+      "category": "Banderas"
     }
   ]
 }
